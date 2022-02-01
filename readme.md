@@ -1,9 +1,9 @@
-#Movie App
+# Movie App
 
 <p>PHP Version 7.1</p>
 <p>Laravel Version 5.8</p>
 
-#Installation
+# Installation
 * Configure .env.example to your environment settings.
 * Run composer install
 * Run the artisan DB migration
