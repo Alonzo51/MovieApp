@@ -13,6 +13,4 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::post('/{genre}/GetRandomMovieFromGenre', [\App\Http\Controllers\AppController::class, 'getRandomMovieFromGenre'])->name('api.getRandomMovieFromGenre');
